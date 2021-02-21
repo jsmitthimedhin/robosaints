@@ -1,0 +1,43 @@
+Source control allows people to share files... multiple people can collaborate on one document (like Google doc)
+
+
+Ep. 190 : A typical Day
+Trello boards
+1. git checkout master (to see what the master is like or if there are changes)
+2. git pull (to pull the latest branch in)
+3. "Stand up" - team members involved will meet together to hear updates
+4. git branch update-(whatever) to get the latest updates
+-git checkout (the feature) so you can work on that specific branch
+5. Once everything is fixed, do a PR (pull request) - git add, git command, and git push
+6. QA (quality control) will then check the update at 3pm to see if the bug is fixed, app is working, etc. Then you merge into master
+
+Ep. 193: NPM intro.
+-NPM is Javascript code that's already done for you. We can then build on top of it.
+-You can combine different code files together to broaden functionality.
+-Be careful... if your size becomes too big, then the website will load slower. You can also use "Yarn" instead
+**3 types of packages:
+1. Packages on the frontend that you can use on the browser. (Html, css, js)
+2. New commands for the commandline
+3. Backend (node.js)
+**3 must-know things you need to know to start a project
+1. HTML, CSS, JS (frontend)
+2. Github Repo + Git (source control)
+3. Packages that other people have writen (package.json)
+
+Ep. 194 NPM Install
+-If you want to run as administrator, just type "sudo" in the command line before the command and it'll ask you to log-in
+*What is .json? It's a file format -- similar to javascript but has double quotes for property
+
+Ep. 194 Installing and Using Packages
+if it's locally, it will give you new abilities in the js file.
+
+
+
+Ep. 197 Installing and Using Packages
+Dev Dependencies - Code that develpers use that won't show up on the front end (will explain more once we get to the React section)
+
+Ep. 208 Your First React Component
+-The index.js file has imports from react to ensure that the packages use files from React
+-In react, ./ means it's in the same directory (so, for instance, importing './index.css' means importing the css file from the same folder)
+
+**What the heck is "service worker?" -- it's a way for the app to run faster...
